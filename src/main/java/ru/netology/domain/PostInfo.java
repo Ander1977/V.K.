@@ -12,7 +12,7 @@ public class PostInfo {
     private String text;
     private int replyOwnerId;
     private int replyPostId;
-    private int friendsOnly;
+    private boolean friendsOnly;
     private Comment comment;
     private String copyright;
     private Likes like;
@@ -21,11 +21,11 @@ public class PostInfo {
     private String postType;
     private PostSource postSource;
     private int signerId;
-    private int canPin;
-    private int canDelete;
-    private int canEdit;
-    private int isPinned;
-    private int markedAsAds;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
+    private boolean isPinned;
+    private boolean markedAsAds;
     private boolean isFavorite;
     private int postponedId;
 

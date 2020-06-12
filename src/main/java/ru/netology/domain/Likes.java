@@ -6,6 +6,6 @@ import lombok.Data;
 public class Likes {
     private int count;
     private int userLikes;
-    private int canLike;
-    private int canPublish;
+    private boolean canLike;
+    private boolean canPublish;
 }

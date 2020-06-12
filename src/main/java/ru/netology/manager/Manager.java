@@ -5,7 +5,7 @@ import ru.netology.domain.PostInfo;
 public class Manager {
     private PostInfo[] posts;
 
-    public PostInfo[] search(int ownerId, String domain, String query, int ownersOnly, int count, int offset) {
+    public PostInfo[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
 
         return null;
     }
